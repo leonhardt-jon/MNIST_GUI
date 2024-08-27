@@ -19,10 +19,10 @@ https://www.kaggle.com/datasets/hojjatk/mnist-dataset/data
 ## Compiling 
 
 ```console
-foo@bar:~$ git clone https://github.com/ocornut/imgui.git
+git clone https://github.com/ocornut/imgui.git
 ```
 
 ```console
-foo@bar:~$ g++ -o real_time_MNIST gui.cpp cnn.cpp imgui/*.cpp imgui/backends/imgui_impl_glfw.cpp imgui/backends/imgui_impl_opengl3.cpp -I./imgui -I./imgui
+g++ -o real_time_MNIST gui.cpp cnn.cpp imgui/*.cpp imgui/backends/imgui_impl_glfw.cpp imgui/backends/imgui_impl_opengl3.cpp -I./imgui -I./imgui
 /backends  -lGL -lglfw
 ```
