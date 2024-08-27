@@ -13,3 +13,16 @@ Fun weekend project and learning experience. Full scope of project:
 3. Implemented CNN forward pass in C++ (cnn.cpp)
 4. Built GUI using dearImgui
 
+## Dataset
+https://www.kaggle.com/datasets/hojjatk/mnist-dataset/data
+
+## Compiling 
+
+```console
+foo@bar:~$ git clone https://github.com/ocornut/imgui.git
+```
+
+```console
+foo@bar:~$ g++ -o real_time_MNIST gui.cpp cnn.cpp imgui/*.cpp imgui/backends/imgui_impl_glfw.cpp imgui/backends/imgui_impl_opengl3.cpp -I./imgui -I./imgui
+/backends  -lGL -lglfw
+```
